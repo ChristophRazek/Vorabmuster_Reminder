@@ -16,7 +16,7 @@ def update():
     #Kopieren von Vorabmusterfile File zu Laufwerk
     samples = pd.read_excel(link)
 
-    samples[['VorabM_Pflicht', 'PE14_MassProdRel','FIXPOSNR','BELEGART','BELEGNR']] = samples[['VorabM_Pflicht','PE14_MassProdRel','FIXPOSNR','BELEGART','BELEGNR']].fillna(0).astype('int64')
+    samples[['VorabM_Pflicht','FIXPOSNR','BELEGART','BELEGNR']] = samples[['VorabM_Pflicht','FIXPOSNR','BELEGART','BELEGNR']].fillna(0).astype('int64')
     samples.to_csv(r'L:\Q\Vorabmuster.csv', sep=';', index=False)
 
     #Log File

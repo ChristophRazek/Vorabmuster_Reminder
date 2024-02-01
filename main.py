@@ -36,7 +36,7 @@ def send_reminder(df_samples):
                  'STEP': 'customercare@stepcosmetici.com',
                  'OXY':['eekinci@oxygendevelopment.com', 'emea-specifications-de@oxygendevelopment.com', 'ablunck@oxygendevelopment.com']}
 
-    cc = ['christoph.razek@emea-cosmetics.com','dzanana.dautefendic@emea-cosmetics.com']
+    cc = ['christoph.razek@emea-cosmetics.com','yian.su@emea-cosmetics.com','dzanana.dautefendic@emea-cosmetics.com']
 
 
 

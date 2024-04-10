@@ -73,7 +73,7 @@ def send_reminder(df_samples):
 
             if c in receivers:
                 df_attachmment = df_reminder[df_reminder['SUCHNAME']== c].drop(['FIXPOSNR','BELEGART','VorabM_Pflicht',
-                                                                        'PE14_SampleReceived', 'Today', 'diff_days'], axis=1)
+                                                                        'PE14_SampleReceived', 'Today', 'diff_days', 'Remarks'], axis=1)
                 df_attachmment.rename(columns={'BELEGNR':'PO','SUCHNAME':'SUPPLIER', 'ARTIKELNR':'ARTICLE',
                                        'BEZEICHNUNG':'DESCRIPTION', 'LIEFERDATUM':'DELIVERY-DATE' }, inplace=True)
 

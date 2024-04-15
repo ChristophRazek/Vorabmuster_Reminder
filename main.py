@@ -17,7 +17,7 @@ df_samples = u.update()
 def send_reminder(df_samples):
 
     receivers = {'NUCO': ['a.adamczewska@nuco.pl', 'k.jeziorska@nuco.pl'],
-                 'ANCOROTTI': ['vbonazza@ancorotticosmetics.com', 'abrambini@ancorotticosmetics.com', 'smonticelli@ancorotticosmetics.com'],
+                 'ANCOROTTI': 'vbonazza@ancorotticosmetics.com',
                  'ART': ['monica.esposito@artcosmetics.it', 'valentina.ghillini@artcosmetics.it'],
                  'CHROMAVIS':'magdalena.skupinska@chromavis.com',
                  'CONFALON':'sonia@confaloniericosmetica.com',

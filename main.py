@@ -23,7 +23,7 @@ def send_mail(email_contacts):
     # mail.Font.Name = 'Georgia'
     mail.To = ";".join(receivers)
     mail.CC = ";".join(cc)
-    mail.Subject = f'Sample Reminder'
+    mail.Subject = f'QA-Sample-Reminder'
     mail.HTMLBody = """<font face='Calibri, Calibri, monospace'>
     Good Day, <br><br>
     Please send us the samples for the orders in the list as soon as possible.<br>
@@ -32,7 +32,7 @@ def send_mail(email_contacts):
     Thank you and kind regards.<br>
   
     </font>"""
-    mail.Attachments.Add(rf'S:\EMEA\Kontrollabfragen\VorabM_Reminder\VorabM_Reminder_{i}_{today}.xlsx')
+    mail.Attachments.Add(rf'S:\EMEA\Kontrollabfragen\VorabM_Reminder\QA-Sample-Reminder_{i}_{today}.xlsx')
 
     mail.Display()
     mail.Save()
@@ -54,7 +54,7 @@ for i in receiver:
 
     df_mail = df[df['LIEFERANTENNR'] == i]
     df_mail.drop('LIEFERANTENNR', axis=1, inplace=True)
-    df_mail.to_excel(rf'S:\EMEA\Kontrollabfragen\VorabM_Reminder\VorabM_Reminder_{i}_{today}.xlsx', index= False)
+    df_mail.to_excel(rf'S:\EMEA\Kontrollabfragen\VorabM_Reminder\QA-Sample-Reminder_{i}_{today}.xlsx', index= False)
     if df_mail.shape[0] != 0:
         send_mail(receiver[i])
 

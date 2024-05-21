@@ -6,7 +6,7 @@ contacts = {70044: ['a.adamczewska@nuco.pl', 'k.jeziorska@nuco.pl','yian.su@emea
              70048:['sonia@confaloniericosmetica.com','yian.su@emea-cosmetics.com'],
              70057:['balzarienrica@cosmetec.it', 'giuliastrada@cosmetec.it','yian.su@emea-cosmetics.com'],
              70061:['jana.wirt@cosmonde.cz', 'eliska.kockova@cosmonde.cz','yian.su@emea-cosmetics.com'],
-             70068:['skupinskak@delia.pl', 'klaudia.stoinska@delia.pl','yian.su@emea-cosmetics.com'],
+             70068:['skupinskak@delia.pl', 'klaudia.stoinska@delia.pl','pilazyp@delia.pl','yian.su@emea-cosmetics.com'],
              70055:['eldina.takmak@donau-kanol.com','sarah.prentner@donau-kanol.com','yian.su@emea-cosmetics.com'],
              70004:['karin.puerner@fc-cosmetics.com','yian.su@emea-cosmetics.com'],
              70003:['stephanie.hardouin-letellier@fiabila.com','cindy.berthelot@fiabila.com','yian.su@emea-cosmetics.com'],

@@ -23,7 +23,7 @@ def send_mail(email_contacts):
     # mail.Font.Name = 'Georgia'
     mail.To = ";".join(receivers)
     mail.CC = ";".join(cc)
-    mail.Subject = f'QA-Sample-Reminder'
+    mail.Subject = f'QA Samples Reminder'
     mail.HTMLBody = """<font face='Calibri, Calibri, monospace'>
     Good Day, <br><br>
     Please send us the samples for the orders in the list as soon as possible.<br>

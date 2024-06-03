@@ -11,7 +11,7 @@ contacts = {70044: ['a.adamczewska@nuco.pl', 'k.jeziorska@nuco.pl','yian.su@emea
              70004:['karin.puerner@fc-cosmetics.com','yian.su@emea-cosmetics.com'],
              70003:['stephanie.hardouin-letellier@fiabila.com','cindy.berthelot@fiabila.com','yian.su@emea-cosmetics.com'],
              70052: ['m.lodolo@icc-italy.com','f.bellavita@icc-italy.com','yian.su@emea-cosmetics.com'],
-             70071:['s.marzorati@ititcosmetics.it', 's.puce@ititcosmetics.it','yian.su@emea-cosmetics.com'],
+             70071:['a.benetti@ititcosmetics.it', 's.g.dibella@ititcosmetics.it','yian.su@emea-cosmetics.com'],
              70083: ['tkostova@jovi.es', 'cscos@jovi.es','yian.su@emea-cosmetics.com'],
              70010: ['michela.bruno@pharmacos.it', 'isabelle.diliddo@pharmacos.it','yian.su@emea-cosmetics.com'],
              70011:['joanna.kostrz@pharmacf.com.pl', 'olga.wesolowska@pharmacf.com.pl','yian.su@emea-cosmetics.com'],

@@ -30,13 +30,21 @@ def send_mail(email_contacts):
     In case there are problems, please inform us as soon as possible.<br>
     If you have any questions please feel free to contact me (yian.su@emea-cosmetics.com).<br><br>
     Thank you and kind regards.<br>
-  
+    <br>
+    Yi-An Su<br> 
+    Quality Management<br>
+
+    <br>emea Handelsgesellschaft mbH<br>
+    Brucknerstraße 8/5<br>
+    A-1040 Wien<br>
+    Tel.:    +43 1 535 10 01 - 232<br>
+    Fax:    +43 1 535 10 01 - 900<br>
     </font>"""
     mail.Attachments.Add(rf'S:\EMEA\Kontrollabfragen\VorabM_Reminder\QA-Sample-Reminder_{i}_{today}.xlsx')
 
     mail.Display()
     mail.Save()
-    mail.Send()
+    #mail.Send()
 
 #Datenbankverbindung
 connx_string = r'DRIVER={SQL Server}; server=172.19.128.2\emeadb; database=emea_enventa_live; UID=usr_razek; PWD=wB382^%H3INJ'
@@ -58,3 +66,7 @@ for i in receiver:
     if df_mail.shape[0] != 0:
         send_mail(receiver[i])
 
+#Log
+
+with open(r'S:\EMEA\Kontrollabfragen\Vorabmuster_Reminder.txt','a') as file:
+    file.write(f'\nVorabMuster Reminder wurde zuletzt am {today} verschickt!')

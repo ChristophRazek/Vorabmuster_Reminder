@@ -70,3 +70,4 @@ for i in receiver:
 
 with open(r'S:\EMEA\Kontrollabfragen\Vorabmuster_Reminder.txt','a') as file:
     file.write(f'\nVorabMuster Reminder wurde zuletzt am {today} verschickt!')
+    file.close()

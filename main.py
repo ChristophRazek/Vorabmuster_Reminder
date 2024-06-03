@@ -44,7 +44,7 @@ def send_mail(email_contacts):
 
     mail.Display()
     mail.Save()
-    #mail.Send()
+    mail.Send()
 
 #Datenbankverbindung
 connx_string = r'DRIVER={SQL Server}; server=172.19.128.2\emeadb; database=emea_enventa_live; UID=usr_razek; PWD=wB382^%H3INJ'

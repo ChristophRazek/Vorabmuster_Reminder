@@ -26,9 +26,13 @@ def send_mail(email_contacts):
     mail.Subject = f'QA Samples Reminder'
     mail.HTMLBody = """<font face='Calibri, Calibri, monospace'>
     Good Day, <br><br>
+    
     Please send us the samples for the orders in the list as soon as possible.<br>
     In case there are problems, please inform us as soon as possible.<br>
     If you have any questions please feel free to contact me (yian.su@emea-cosmetics.com).<br><br>
+    
+    <b>Please follow the sample instructions in the excel thoroughly!</b>
+    <br><br>
     Thank you and kind regards.<br>
     <br>
     Yi-An Su<br> 
@@ -44,7 +48,7 @@ def send_mail(email_contacts):
 
     mail.Display()
     mail.Save()
-    mail.Send()
+    #mail.Send()
 
 #Datenbankverbindung
 connx_string = r'DRIVER={SQL Server}; server=172.19.128.2\emeadb; database=emea_enventa_live; UID=usr_razek; PWD=wB382^%H3INJ'

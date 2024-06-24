@@ -29,19 +29,19 @@ def send_mail(email_contacts):
     
     Please send us the samples for the orders in the list as soon as possible.<br>
     In case there are problems, please inform us as soon as possible.<br>
-    If you have any questions please feel free to contact me (yian.su@emea-cosmetics.com).<br><br>
+    If you have any questions please feel free to contact kirstin.past@emea-cosmetics.com or kirsten.prohaska@emea-cosmetics.com.<br><br>
     
     <b>Please follow the sample instructions in the excel thoroughly!</b>
     <br><br>
     Thank you and kind regards.<br>
     <br>
-    Yi-An Su<br> 
-    Quality Management<br>
+    Linnea Jonasson<br> 
+    Personal Assistant to CEO & Product Development<br>
 
     <br>emea Handelsgesellschaft mbH<br>
     Brucknerstraße 8/5<br>
     A-1040 Wien<br>
-    Tel.:    +43 1 535 10 01 - 232<br>
+    Tel.:    +43 1 535 10 01 - 210<br>
     Fax:    +43 1 535 10 01 - 900<br>
     </font>"""
     mail.Attachments.Add(rf'S:\EMEA\Kontrollabfragen\VorabM_Reminder\QA-Sample-Reminder_{i}_{today}.xlsx')

@@ -2,13 +2,13 @@ offene_Vmuster = """
 
 with cte_bgr as (
 Select Min(Belegnr) as 'Belegnr', Artikelnr
-from emea_enventa_live.dbo.BESTELLPOS
+from emea_enventa_live45.dbo.BESTELLPOS
 where BELEGART not in (2,191) and STATUS <> 6 and BELEGNR > 23000000
 Group by ARTIKELNR
 ),
 
 cte_bp_ohne_storno as (select belegnr, artikelnr, min(fixposnr) as 'fixposnr'
-from [emea_enventa_live].[dbo].[BESTELLPOS]
+from [emea_enventa_live45].[dbo].[BESTELLPOS]
 where BranchKey = 110 and STATUS <> 6
 group by belegnr, artikelnr
 )
@@ -41,10 +41,10 @@ from cte_bgr
 left join cte_bp_ohne_storno
 on cte_bgr.Belegnr = cte_bp_ohne_storno.BELEGNR and cte_bgr.ARTIKELNR = cte_bp_ohne_storno.ARTIKELNR
 
-left join emea_enventa_live.dbo.BESTELLPOS as bp
+left join emea_enventa_live45.dbo.BESTELLPOS as bp
 on cte_bgr.Belegnr = bp.BELEGNR and cte_bgr.Artikelnr = bp.ARTIKELNR and cte_bp_ohne_storno.fixposnr = bp.FIXPOSNR
 
-left join emea_enventa_live.dbo.LIEFERANTEN as l
+left join emea_enventa_live45.dbo.LIEFERANTEN as l
 on bp.LIEFERANTENNR = l.LIEFERANTENNR
 
 where DATEDIFF(DAY, bp.LIEFERDATUM, SYSDATETIME()) < 90 -- filtert Lieferdati raus, die 3 Monate in der Vergangenheit liegen

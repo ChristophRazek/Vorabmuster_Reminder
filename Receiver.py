@@ -8,7 +8,7 @@ contacts = {70044: ['a.adamczewska@nuco.pl', 'k.jeziorska@nuco.pl','linnea.jonas
              70057:['matteomaffoni@cosmetec.it','laurameleca@cosmetec.it','mariannafilocamo@cosmetec.it','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
 
              70061:['jana.wirt@cosmonde.cz', 'eliska.kockova@cosmonde.cz','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
-             70068:['skupinskak@delia.pl', 'klaudia.stoinska@delia.pl','pilazyp@delia.pl','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
+             70068:['klaudia.stoinska@delia.pl','pilazyp@delia.pl','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
              70055:['eldina.takmak@donau-kanol.com','sarah.prentner@donau-kanol.com','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
              70004:['karin.puerner@fc-cosmetics.com','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
              70003:['stephanie.hardouin-letellier@fiabila.com','cindy.berthelot@fiabila.com','linnea.jonasson@emea-cosmetics.com','anhthi.dangvan@emea-cosmetics.com'],
